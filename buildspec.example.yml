@@ -1,0 +1,10 @@
+# This file is example of buildspec witch used by AWS CodePipeline.
+# Please change the environment specification in line 10 according to your situation.
+# Specify the one you want to deploy from the environment settings described in config.yml.
+version: 0.2
+
+phases:
+  build:
+    commands:
+       - cp -f /config.yml ./config.yml
+       - theme deploy --env=development --allow-live

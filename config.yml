@@ -1,0 +1,20 @@
+# This file is used by Theme-Kit.
+# Rewrite as needed.
+# Details are written in the following website.
+# https://shopify.dev/tools/theme-kit/configuration-reference
+
+development:
+  password: ${DEV_STORE_PASSWORD}
+  theme_id: ${DEV_THEME_ID}
+  store: ${DEV_STORE_NAME}
+  ignore_files:
+    - *******
+    - *******
+
+production:
+  password: ${DEV_STORE_PASSWORD}
+  theme_id: ${DEV_THEME_ID}
+  store: ${DEV_STORE_NAME}
+  ignore_files:
+    - *******
+    - *******
